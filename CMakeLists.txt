@@ -13,5 +13,11 @@ message("PROJECT_SOURCE_DIR" ${PROJECT_SOURCE_DIR})
 #	IMPORTED_IMPLIB   ${PROJECT_SOURCE_DIR}/lib/libgps2local.lib 
 #)
 #测试主函数的文件夹
-add_subdirectory(src test_pathPlanning)
+add_subdirectory(src)
+
+#张浩的任务分配
 add_subdirectory(taskAllocationSrc)
+#GGQ的路径规划
+add_subdirectory(pathPlanningSrc)
+#生成anylogic的dll
+add_subdirectory(anyLogicLibSrc)

@@ -30,7 +30,6 @@ namespace bt = boost;
 namespace bgeo {
 
 	/*geometry lib */
-
 	//点
 	typedef bg::model::d2::point_xy<double> DPoint;
 	//线段
@@ -43,7 +42,6 @@ namespace bgeo {
 
 	typedef bg::model::polygon<DPoint, false> DPolygon;
 
-	
 
 	std::vector<DPoint> segment2VDPoint(DSegment const &seg, double const step);
 
@@ -75,7 +73,6 @@ namespace bgeo {
 	private:
 
 	};
-
 
 
 	///*图库*/
